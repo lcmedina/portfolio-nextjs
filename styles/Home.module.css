@@ -11,6 +11,10 @@
   .bio, .about {
     flex: 100%;
   }
+  .skillimgs {
+    flex-direction: column;
+    padding-bottom: 5%;
+  }
 }
 .bio {
   display: flex;
@@ -20,8 +24,15 @@
   flex: 50%;
   padding: 5%;
 }
-.skills {
+.skills h1 {
   color: #324ad1;
+}
+.skills {
+  text-align: center;
+}
+.skillimgs {
+  display: flex;
+  justify-content: space-around;
 }
 .about {
   color: whitesmoke;
