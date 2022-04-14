@@ -12,17 +12,19 @@ export default function Home() {
       <div className={styles.about}>
 
         <div className={styles.profile}>
-          <Image src="/me.png" width={300} height={300} />
+          <Image src="/me.png" width={400} height={400} />
         </div>
         <div className={styles.bio}>
           <h1 className="heading">Welcome!</h1>
-          <p>Hi, I’m Laura and welcome to my portfolio! I’m a graduate of the Digital Crafts bootcamp and currently live in Houston, TX.
+          <p>I remember designing my very first custom MySpace layout and thinking "Whoa, that is so <i>COOL</i>!"
 
-          I consider myself a creative problem-solver with years of hospitality experience that allow me to work with teams of all different backgrounds. Currently I am working as front desk admin at a local high school, looking to transfer into the tech field and apply all that I’ve learned!
-
-          When I’m not coding you can find me hanging out with my dog and hunting down the best cold brew in Houston. Occasionally I run long distances and hike up mountains for fun. I’ve been to 26 countries and can’t wait to explore some more!
-
-          Let’s connect and build something cool, swap travel stories, or grab a coffee!</p>
+          I grew up firmly believing that I would be an equine veterinarian, or a dancer, or an actor, or an event planner, or a TEFL teacher in South Korea.
+          <br/><br/>
+          Basically, I've been all over the place in terms of passions and career interests.
+          <br/><br/>
+          I stumbled upon some online coding tutorials and suddenly I was that 12 year old girl, sitting in front of her computer creating her own layout again. Coding has ignited a drive in me that I thought I had lost. It allows me to be as creative as I want, I get to problem solve on a daily basis, and the work never gets boring.
+          <br/><br/>
+          I love how there's not really a wrong or right answer in web development, just different paths developers take to get to a solution. The collaborative aspect of this field is something that I really thrive on. I'm excited to learn from others and pass on knowledge and advice where I can!</p>
         </div>
       </div>
       <div className={styles.skills}>

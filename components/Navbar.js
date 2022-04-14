@@ -5,9 +5,9 @@ import Link from "next/link";
 const Navbar = () => {
     return ( 
         <nav>
-            <button className="toggle">
+            {/* <button className="toggle">
             <Image src="/icons/toggle.png" width={40} height={40}/>
-            </button>
+            </button> */}
             <Link href="/"><a>Home</a></Link>
             <Link href="/#contact" scroll={false}><a>Contact</a></Link>
             <Link href="/projects"><a>Projects</a></Link>

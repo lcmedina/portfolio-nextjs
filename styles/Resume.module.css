@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    font-family: 'Overpass', sans-serif;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background: #324AD1;
+    color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 10px 10px 25px #7a7f99;
+    margin: 15px;
+}
+.right {
+    width: 75%;
+    margin: 15px;
+}
+
+.info {
+    border-bottom: 1px solid #7a7f99;
+}
+.skills{
+    text-align: center;
+    line-height: .5rem;
+    padding-top: 5px;
+}
+.skills h2 {
+    padding-bottom: 10px;
+}
+.heading {
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+.details {
+    display: flex;
+    align-items: center;
+}
+.details p {
+    padding-left: 5px;
+    padding-top: 4px;
+}
+.work {
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px #7a7f99;
+    background-color: whitesmoke;
+    margin: 15px;
+}

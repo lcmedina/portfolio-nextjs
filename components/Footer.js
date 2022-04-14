@@ -19,11 +19,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className="phone">
-                <Image src="/icons/phone_footer.png" width={30} height={30} />
+                <Image src="/icons/phone.png" width={30} height={30} />
                 <p>+1 (713) 320-2249</p>
             </div>
             <div className="email">
-                <Image src="/icons/email_footer.png" width={30} height={30} />
+                <Image src="/icons/email.png" width={30} height={30} />
                 <p>lauracodes42@gmail.com</p>
             </div>
         </div>
