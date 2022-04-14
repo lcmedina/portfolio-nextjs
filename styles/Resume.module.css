@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    font-family: 'Overpass', sans-serif;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background: #324AD1;
+    color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px #7a7f99;
+    margin: 15px;
+}
+.right {
+    width: 75%;
+    margin: 15px;
+}
+
+.info {
+    border-bottom: 1px solid #7a7f99;
+}
+.skills{
+    text-align: center;
+    line-height: .5rem;
+    padding-top: 5px;
+}
+.skills h2 {
+    padding-bottom: 10px;
+}
+.heading {
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+.details {
+    display: flex;
+    align-items: center;
+}
+.details p {
+    padding-left: 5px;
+    padding-top: 4px;
+}
+.experience {
+    color: #7a7f99;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px #7a7f99;
+    background-color: whitesmoke;
+    margin: 15px;
+}
+.expHeading {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.expHeading h1 {
+    padding-left: 15px;
+}
+.expDetails {
+    padding-left: 25px;
+    border-bottom: 1px solid #7a7f99;
+}
+.expDetails p {
+    padding: 10px;
+    font-size: 18px;
+}
+.dates {
+    display: flex;
+    align-items: center;
+    color: #324AD1;
+}
+.dates h3 {
+    padding-left: 15px;
+}
+.dates span {
+    background: #324AD1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.float {
+    position:fixed;
+	width:80px;
+	height:80px;
+	bottom:40px;
+	right:40px;
+    cursor: pointer;
+}
