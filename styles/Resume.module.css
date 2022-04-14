@@ -11,7 +11,7 @@
     background: #324AD1;
     color: whitesmoke;
     border-radius: 3px;
-    box-shadow: 10px 10px 25px #7a7f99;
+    box-shadow: 3px 3px 7px #7a7f99;
     margin: 15px;
 }
 .right {
@@ -42,9 +42,48 @@
     padding-left: 5px;
     padding-top: 4px;
 }
-.work {
+.experience {
+    color: #7a7f99;
     border-radius: 3px;
     box-shadow: 3px 3px 7px #7a7f99;
     background-color: whitesmoke;
     margin: 15px;
+}
+.expHeading {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.expHeading h1 {
+    padding-left: 15px;
+}
+.expDetails {
+    padding-left: 25px;
+    border-bottom: 1px solid #7a7f99;
+}
+.expDetails p {
+    padding: 10px;
+    font-size: 18px;
+}
+.dates {
+    display: flex;
+    align-items: center;
+    color: #324AD1;
+}
+.dates h3 {
+    padding-left: 15px;
+}
+.dates span {
+    background: #324AD1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.float {
+    position:fixed;
+	width:80px;
+	height:80px;
+	bottom:40px;
+	right:40px;
+    cursor: pointer;
 }
