@@ -81,7 +81,7 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-            <a className={styles.float} href="/me.png" download><Image src="/icons/file_lt.png" width={60} height={60} /></a>
+            <a className={styles.float} href="/LauraMedinaResume22.pdf" download><Image src="/icons/file_lt.png" width={60} height={60} /></a>
         </>
      );
 }
