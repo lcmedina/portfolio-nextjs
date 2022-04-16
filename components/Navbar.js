@@ -6,7 +6,7 @@ const Navbar = () => {
     return ( 
         <nav>
             {/* <button className="toggle">
-            <Image src="/icons/toggle.png" width={40} height={40}/>
+            <Image alt="toggle" src="/icons/toggle.png" width={40} height={40}/>
             </button> */}
             <Link href="/"><a>Home</a></Link>
             <Link href="/projects"><a>Projects</a></Link>

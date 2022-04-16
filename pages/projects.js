@@ -10,7 +10,7 @@ const Projects = () => {
             <title>Laura | Projects</title>
             <meta name="keywords" content="projects" />
         </Head>
-            <Image src="/illustrations/proj_lt.svg" width={350} height={350} />
+            <Image alt="projects" src="/illustrations/proj_lt.svg" width={350} height={350} />
             <div className={styles.projLeft}>
             <div className={styles.video}>
                 <video width={500} height={300} controls>
@@ -31,12 +31,12 @@ const Projects = () => {
             </div>
             <div className={styles.projRight}>
             <div className={styles.video}>
-                <Image src="/projects/countries.gif" width={500} height={300} />
+                <Image alt="countries project" src="/projects/countries.gif" width={500} height={300} />
                 </div>
                 <div className={styles.rightDescrip}>
                     <h1>Countries API</h1>
                     <h2>March 2022</h2>
-                    <p><a href="https://www.frontendmentor.io/profile/lcmedina" target="_blank">Frontend Mentor</a> challenge using the REST countries API. Built with React and MUI.</p>
+                    <p><a href="https://www.frontendmentor.io/profile/lcmedina" target="_blank" rel="noreferrer">Frontend Mentor</a> challenge using the REST countries API. Built with React and MUI.</p>
                     <p>I used a context API to manage the light and dark themes. This project really allowed me to dive into customizing MUI components.</p>
                     <p>Users are able to see all countries from the API on the homepage, search for a country, filter countries by region, click on a country and view details on a separate page, click through border countries on the detail page and toggle between light and dark mode.</p>
                     <button className={styles.button} onClick={() => window.open('https://countries05.netlify.app/')}>Live Demo</button>
@@ -59,7 +59,7 @@ const Projects = () => {
             </div>
             <div className={styles.projRight}>
             <div className={styles.video}>
-                <Image src="/projects/keeper.gif" width={500} height={300} />
+                <Image alt="keeper project" src="/projects/keeper.gif" width={500} height={300} />
                 </div>
                 <div className={styles.rightDescrip}>
                     <h1>myKeeper</h1>

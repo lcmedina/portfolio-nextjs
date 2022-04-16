@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.about}>
 
         <div className={styles.profile}>
-          <Image src="/me.png" width={400} height={400} />
+          <Image alt='profile picture' src="/me.png" width={400} height={400} />
         </div>
         <div className={styles.bio}>
           <h1 className="heading">Welcome!</h1>
@@ -30,9 +30,9 @@ export default function Home() {
       <div className={styles.skills}>
         <h1 className="heading">My Skills</h1>
         <div className={styles.skillimgs}>
-          <Image src="/illustrations/big3_lt.svg" width={200} height={200} />
-          <Image src="/illustrations/nextjs_lt.svg" width={200} height={200} />
-          <Image src="/illustrations/react_lt.svg" width={200} height={200} />
+          <Image alt='JS, HTML, CSS' src="/illustrations/big3_lt.svg" width={200} height={200} />
+          <Image alt='nextjs' src="/illustrations/nextjs_lt.svg" width={200} height={200} />
+          <Image alt='react' src="/illustrations/react_lt.svg" width={200} height={200} />
         </div>
       </div>
     </div>
