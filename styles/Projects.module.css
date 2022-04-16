@@ -10,8 +10,17 @@
     font-family: 'Permanent Marker', cursive;
     font-size: 2.5rem;
 }
+.container a {
+    color: #536dfe;
+}
+.container a:hover {
+    color: #7387fa;
+}
 .projLeft, .projRight {
     display: flex;
+}
+.projRight {
+    flex-direction: row-reverse;
 }
 .projRight video {
     margin-right: 40px;
@@ -21,6 +30,7 @@
 }
 .video {
     align-self: center;
+    padding-right: 25px;
 }
 .leftDescrip {
     padding: 5px 40px;
@@ -42,4 +52,33 @@
 }
 .button:hover {
     background-color: #7387fa;
+}
+@media (max-width: 600px) {
+    .projLeft, .projRight {
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    .projRight video {
+        margin-right: 10px;
+        max-width: 100vw;
+    }
+    .projLeft video {
+        padding-left: 10px;
+        max-width: 100vw;
+    }
+    .video {
+        align-self: center;
+        padding-right: 0;
+    }
+    .leftDescrip {
+        padding: 5px 10px;
+        text-align: right;
+    }
+    .rightDescrip {
+        padding: 5px 10px;
+    }
+    .projLeft, .projRight {
+        padding-bottom: 20px;
+    }
 }
