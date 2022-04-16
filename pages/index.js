@@ -16,15 +16,15 @@ export default function Home() {
         </div>
         <div className={styles.bio}>
           <h1 className="heading">Welcome!</h1>
-          <p>I remember designing my very first custom MySpace layout and thinking "Whoa, that is so <i>COOL</i>!"
+          <p>I remember designing my very first custom MySpace layout and thinking &quot;Whoa, that is so <i>COOL</i>!&quot;
 
           I grew up firmly believing that I would be an equine veterinarian, or a dancer, or an actor, or an event planner, or a TEFL teacher in South Korea.
           <br/><br/>
-          Basically, I've been all over the place in terms of passions and career interests.
+          Basically, I&apos;ve been all over the place in terms of passions and career interests.
           <br/><br/>
           I stumbled upon some online coding tutorials and suddenly I was that 12 year old girl, sitting in front of her computer creating her own layout again. Coding has ignited a drive in me that I thought I had lost. It allows me to be as creative as I want, I get to problem solve on a daily basis, and the work never gets boring.
           <br/><br/>
-          I love how there's not really a wrong or right answer in web development, just different paths developers take to get to a solution. The collaborative aspect of this field is something that I really thrive on. I'm excited to learn from others and pass on knowledge and advice where I can!</p>
+          I love how there&apos;s not really a wrong or right answer in web development, just different paths developers take to get to a solution. The collaborative aspect of this field is something that I really thrive on. I&apos;m excited to learn from others and pass on knowledge and advice where I can!</p>
         </div>
       </div>
       <div className={styles.skills}>
