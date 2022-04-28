@@ -10,18 +10,19 @@ body, html {
   animation: fade-in 3s;
 }
 a {
-  color: #7a7f99;
+  color: #324ad1;
   text-decoration: none;
 }
 a:hover {
-  color: #324ad1;
+  color: #7a7f99;
 }
 nav {
   margin: 0;
   padding: 10px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
+  font-size: 20px;
 }
 nav a {
   margin-left: 12px;
